@@ -89,26 +89,56 @@ header img {
     table-layout:fixed;
 }
 
-td.courseTiles button {
+button {
     border: 0;
     padding: 10px 15px;
     border-radius: 5px;
 } 
 
-.accept {
+.greenButton {
     background-color: #4CAF50;
     color: white;
 }
 
-.accept:hover {
+.greenButton:hover {
     background-color: #265e28;
 }
 
-.decline {
+.redButton {
     background-color: #D32F2F;
     color: white;
 }
 
-.decline:hover {
+.redButton:hover {
     background-color: #821b1b;
+}
+
+.blueButton {
+    background-color: lightblue;
+}
+
+.blueButton:hover {
+    background-color: darkblue;
+    color: white;
+}
+
+.quizDetails {
+    background-color: lightblue;
+    padding: 20px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.quizResponse {
+    background-color: #cacaca;
+    align-items: left;
+}
+
+td img {
+    width: 100%;
+}
+
+.quizTable {
+    border: 0;
+    width: 100%;
 }
