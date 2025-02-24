@@ -64,6 +64,7 @@ select {
     background-color: lightyellow;
     border-radius: 5px;
     padding: 5px;
+    font-size: small;
 }
 
 header img {
@@ -89,6 +90,12 @@ header img {
     table-layout:fixed;
 }
 
+td.courseTiles {
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
 button {
     border: 0;
     padding: 10px 15px;
@@ -96,12 +103,12 @@ button {
 } 
 
 .greenButton {
-    background-color: #4CAF50;
+    background-color: #008000;
     color: white;
 }
 
 .greenButton:hover {
-    background-color: #265e28;
+    background-color: #006600;
 }
 
 .redButton {
@@ -144,9 +151,25 @@ td img {
     width: 100%;
 }
 
-.studentImg {
+table.studentImg img{
     height: 50px;
     width: 50px;
     border-radius: 50%;
     border-color: black;
+}
+
+.leaderboard {
+    border: 1;
+    width: 100%;
+    margin: 0;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+td.courseTiles a {
+    font-size: small;
+}
+
+table.courseTable p {
+    font-size: small;
 }
