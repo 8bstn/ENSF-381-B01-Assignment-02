@@ -5,4 +5,5 @@ This assignment will focus on styling the layout, colors, fonts, buttons, and ov
 pages while maintaining the HTML structure from Assignment 01.
 
 ## Collaborators
-Sebastian Silva (30131305) Olubadejo Erioluwa Temiloluwa (30187041)
+* Sebastian Silva (30131305)
+* Olubadejo Erioluwa Temiloluwa (30187041)
