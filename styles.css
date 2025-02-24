@@ -60,6 +60,55 @@ footer {
     text-align: center;
 }
 
+select {
+    background-color: lightyellow;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+header img {
+    height: 100px;
+    width: 100px;
+}
+
 .marginFix {
     margin-left: 3px;
+}
+
+.courseTiles {
+    background-color: #e6f2ff;
+    box-shadow:darkred;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.courseTable {
+    border: 0;
+    width:100%;
+    table-layout:fixed;
+}
+
+td.courseTiles button {
+    border: 0;
+    padding: 10px 15px;
+    border-radius: 5px;
+} 
+
+.accept {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.accept:hover {
+    background-color: #265e28;
+}
+
+.decline {
+    background-color: #D32F2F;
+    color: white;
+}
+
+.decline:hover {
+    background-color: #821b1b;
 }
