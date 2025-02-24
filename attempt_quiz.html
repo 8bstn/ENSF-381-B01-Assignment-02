@@ -2,11 +2,6 @@
 <html>
     <head>
         <title>LMS - Attempt Quiz</title>
-        <style>
-            .marginFix {
-                margin-left: 3px;
-            }
-        </style>
         
         <!-- Link to the external CSS file -->
         <link rel = "stylesheet" href = "styles.css">
@@ -23,30 +18,22 @@
     </div>
 
     <main>
-        <table border = "0" style = "width:100%">
+        <table class = "quizTable">
 
             <!--Banner-->
             <tr>
                 <td>
-                    <br><br>
-                    <img src = "banner.jpg" alt = "Banner image" width = "100%">
+                    <br>
+                    <img src = "banner.jpg" alt = "Banner image">
                 </td>
             </tr>
 
-            <!--Course code-->
+            <!-- Course code, and Details-->
             <tr>
-                <td>
+                <td class = "quizDetails">
                     <h2>Course Name: Web Development</h2>
                     <h2>Course Code: WD381</h2>
-                </td>
-            </tr>
-
-            <!--Quiz Details-->
-            <tr>
-                <td>
-                        <p>
-                            Topic: HTML Basics
-                        </p>
+                    <p>Topic: HTML Basics</p>
                     <p>Deadline: 11:59 PM, February 10th, 2025</p>
                     <p>Attempts Allowed: 1</p>
                 </td>
@@ -69,15 +56,19 @@
 
             <!--Response-->
             <tr>
-                <td>
-                    <br>
+                <td class = "quizResponse">
                     <input type = "radio" id = "a" name = "headers" value = "a">
                     <label for = "a">Hyper Text Markup Language</label>
                     <br>
                     <input type = "radio" id = "b" name = "headers" value = "b">
                     <label for = "b">Home Tool Markup Language</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
                     <br>
-                    <button type = "button">Submit Answer</button>
+                    <button type = "button" class = "blueButton">Submit Answer</button>
                 </td>
             </tr>
 
@@ -97,15 +88,19 @@
 
             <!--Response-->
             <tr>
-                <td>
-                    <br>
+                <td class = "quizResponse">
                     <input type = "checkbox" id = "elements" name = "elements">
                     <<label for = "elements">div</label>>
                     <br>
                     <input type = "checkbox" id = "elements" name = "elements">
                     <<label for = "elements">span</label>>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
                     <br>
-                    <button type = "button">Submit Answer</button>
+                    <button type = "button" class = "blueButton">Submit Answer</button>
                 </td>
             </tr>
 
@@ -113,7 +108,7 @@
             <tr>
                 <td>
                     <br>
-                    <a href = "leaderboard.html"><button type = "button">Finish Quiz</button></a>
+                    <a href = "leaderboard.html"><button type = "button" class = "redButton">Finish Quiz</button></a>
                 </td>
             </tr>
             </form>
