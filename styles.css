@@ -136,9 +136,17 @@ button {
 
 td img {
     width: 100%;
+    border-radius: 5px;
 }
 
 .quizTable {
     border: 0;
     width: 100%;
+}
+
+.studentImg {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border-color: black;
 }
