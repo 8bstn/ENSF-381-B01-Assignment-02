@@ -225,12 +225,7 @@ table.courseTable p {
         align-self: stretch;
         background-color: #dadada;
         padding: 30px;
-       
-
-        label {
-
-        }
-
+        
         input {
             border-style: solid;
             border-color: darkgray;
@@ -269,14 +264,6 @@ table.courseTable p {
     }
     
 }
- 
-
- .footer {
-    background-color: #004080;
-    color: white;
-    padding: 10px;
-    text-align: center;
-}
 
 #leaderboard-form {
     text-align: center;
@@ -312,6 +299,10 @@ table.courseTable p {
     margin-bottom: 20px;
 }
 
-
+.leaderboardTitle {
+    background-color:rgb(64, 165, 64);
+    color:white; 
+    font-size:30px;
+}
 
 
