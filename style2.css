@@ -1,6 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: white;
+    background-color: #f2f2f2;
 }
 
 header {
@@ -34,7 +34,7 @@ div a:hover {
 }
 
 main {
-    background-color: #d4d4d4;
+    background-color: #f2f2f2;
     padding: 20px;
     text-align: center;
     margin: 0;
@@ -216,7 +216,7 @@ table.courseTable p {
         align-items: center;
         flex-direction: column;
         align-self: stretch;
-        background-color: #d4d4d4;
+        background-color: #dadada;
         padding: 30px;
        
 
@@ -303,7 +303,8 @@ table.courseTable p {
 
     margin-top: 20px;
     margin-bottom: 20px;
-    background-color: white;
 }
+
+
 
 
