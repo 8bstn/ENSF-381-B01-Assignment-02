@@ -33,11 +33,10 @@ div a:hover {
 }
 
 main {
-    background-color: #d4d4d4;
+    background-color: #f2f2f2;
     padding: 20px;
     text-align: center;
     margin: 0;
-    margin-left: 3px;
 }
 
 main p, ul li, h2 {
@@ -175,38 +174,9 @@ table.courseTable p {
     font-size: small;
 }
 
-.login-header {
-    padding: 20px;
-    margin: 0px;
-    display: flex;
-    justify-content: space-between;
-    background-color: #004080;
-    color: white;
-    text-align: right;
-    
-}
-
 .page-header-login{
     color: #004080;
     margin-top: 50px;
-}
-
-.t1 {
-    nav {
-        background-color: #003366;
-        display: flex;
-        justify-content:space-around;
-    
-        a {
-            padding: 10px;
-            text-decoration: none;
-            color: white;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-    }
 }
 
 .form-tag {
@@ -225,7 +195,7 @@ table.courseTable p {
         align-self: stretch;
         background-color: #dadada;
         padding: 30px;
-        
+
         input {
             border-style: solid;
             border-color: darkgray;
@@ -304,5 +274,3 @@ table.courseTable p {
     color:white; 
     font-size:30px;
 }
-
-
